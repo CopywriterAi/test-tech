@@ -7,30 +7,25 @@ export default function Home() {
       id: 1,
       name: 'Josep',
       email: 'josep@example.com',
-      avatar: 'https://avatars.dicebear.com/api/initials/josep@example.com.svg',
+      avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
     },
     {
       id: 2,
       name: 'John',
       email: 'john@example.com',
-      avatar: 'https://avatars.dicebear.com/api/initials/john@example.com.svg',
+      avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
     },
     {
       id: 3,
       name: 'Jane',
       email: 'jane@example.com',
-      avatar: 'https://avatars.dicebear.com/api/initials/jane@example.com.svg',
+      avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
     },
   ]
 
   return (
     <div>
       <UserGrid users={users} />
-      <div>
-        <button>Back</button>
-        <div>page 1 of 1</div>
-        <button>Next</button>
-      </div>
     </div>
   )
 }
